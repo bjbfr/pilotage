@@ -2,8 +2,30 @@
   // link to ./src/tsconfig-gas.json
   "extends": "./tsconfig-gas",
   "references": [
-    { "path": "../../libs/unittest/tsconfig.json" },
-    { "path": "../../libs/ui/tsconfig.json" }
-  //     { "path": "../../libs/<dependency>/tsconfig.json" }
+    {
+      "path": "../../libs/unittest/tsconfig.json"
+    },
+    {
+      "path": "../../libs/ui/tsconfig.json"
+    },
+    {
+      "path": "../../libs/properties/tsconfig.json"
+    },
+    {
+      "path": "../../libs/fs/tsconfig.json"
+    },
+    {
+      "path": "../../libs/spreadsheet/tsconfig.json"
+    },
+    {
+      "path": "../../libs/sheetrange/tsconfig.json"
+    },
+    {
+      "path": "../../libs/utils/tsconfig.json"
+    },
+    {
+      "path": "../../libs/obj/tsconfig.json"
+    }
+    //     { "path": "../../libs/<dependency>/tsconfig.json" }
   ]
 }
